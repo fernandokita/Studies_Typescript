@@ -1,7 +1,7 @@
 class Curso{
-    channel = null
-    course = null
-    constructor(channel:any,course:any){
+    channel 
+    course
+    constructor(channel:string,course:string){
         this.channel = channel
         this.course = course
     }
