@@ -2,8 +2,8 @@
 console.log("Hello World");
 
 const nome = "Fernando";
-const canal = "CFBCursos";
-const curso = "Typescript";
+const channel = "CFBCursos";
+const course = "Typescript";
 
 console.log(nome);
 console.log(canal);
