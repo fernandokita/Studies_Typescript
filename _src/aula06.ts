@@ -7,4 +7,25 @@ let employer : Object = {
 }
 console.log(employer)
 
+// Exploring the enum's concept jointly about Object's concept
+enum goal{
+    red = "didn't reach goal",
+    green = "reach goal"
+}
+console.log("Sales below 2000" + goal.red + "||" +"Above 2000" + goal.green)
+
+// -----------
+enum weekDay{
+    sunday = 0,
+    monday = 1,
+    tuesday = 2,
+    wednesday = 3,
+    thursday = 4,
+    friday = 5,
+    saturday = 6
+}
+
+console.log(weekDay[6] + "and" + weekDay[0] + "We don't work. " + "Until" + weekDay[5] + "everyone must reachs goal about week.")
+
+
 
