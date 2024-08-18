@@ -21,6 +21,11 @@ enum goal{
 }
 console.log("Sales below 2000" + goal.red + "||" +"Above 2000" + goal.green)
 
+//-----------------
+const saleCalculate = (totalSales:number)=>{
+    return totalSales*0.07
+}
+
 // -----------
 enum weekDay{
     sunday = 0,
@@ -33,6 +38,7 @@ enum weekDay{
 }
 
 console.log(weekDay[6] + "and" + weekDay[0] + "We don't work. " + "Until" + weekDay[5] + "everyone must reachs goal about week.")
-
+saleCalculate(2000)
+console.log(`Sale total by employer ${saleCalculate(2000)}`)
 
 

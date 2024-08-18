@@ -20,6 +20,10 @@ var goal;
     goal["green"] = "reach goal";
 })(goal || (goal = {}));
 console.log("Sales below 2000" + goal.red + "||" + "Above 2000" + goal.green);
+//-----------------
+var saleCalculate = function (totalSales) {
+    return totalSales * 0.07;
+};
 // -----------
 var weekDay;
 (function (weekDay) {
@@ -32,3 +36,5 @@ var weekDay;
     weekDay[weekDay["saturday"] = 6] = "saturday";
 })(weekDay || (weekDay = {}));
 console.log(weekDay[6] + "and" + weekDay[0] + "We don't work. " + "Until" + weekDay[5] + "everyone must reachs goal about week.");
+saleCalculate(2000);
+console.log("Sale total by employer ".concat(saleCalculate(2000)));
