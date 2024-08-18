@@ -3,7 +3,14 @@ let employer : Object = {
     name : "Marshall",
     age : 35,
     totalSales : 2000,
-    saudacao:(name:string)=>{console.log("Hi, my name is"+ name + "How can I help you ?")}
+    saudacao:(name:string)=>{console.log("Hi, my name is"+ name + "How can I help you ?")},
+    login:(user:string,password:string)=>{
+        let login:boolean = false
+        if(user === user && password === password){
+            login = true
+        }
+        login = false
+    } // class 07. Exploring function's concept..
 }
 console.log(employer)
 

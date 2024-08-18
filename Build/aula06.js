@@ -3,7 +3,14 @@ var employer = {
     name: "Marshall",
     age: 35,
     totalSales: 2000,
-    saudacao: function (name) { console.log("Hi, my name is" + name + "How can I help you ?"); }
+    saudacao: function (name) { console.log("Hi, my name is" + name + "How can I help you ?"); },
+    login: function (user, password) {
+        var login = false;
+        if (user === user && password === password) {
+            login = true;
+        }
+        login = false;
+    } // class 07. Exploring function's concept..
 };
 console.log(employer);
 // Exploring the enum's concept jointly about Object's concept
